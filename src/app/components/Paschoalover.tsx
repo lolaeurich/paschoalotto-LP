@@ -20,7 +20,7 @@ export default function PaschoaloverSection() {
           <p className="font-inter font-bold text-[#22244E] text-[clamp(1.5rem,2.2vw,2.75rem)] leading-tight">
             Orgulho de ser
           </p>
-          <h2 className="font-inter font-bold text-[#0051FA] text-[clamp(3rem,9vw,7.5rem)] leading-[0.9]">
+          <h2 className="font-inter font-bold text-[#0051FA] text-[clamp(2.8rem,9vw,7.5rem)] leading-[0.9]">
             #paschoalover
           </h2>
         </div>
