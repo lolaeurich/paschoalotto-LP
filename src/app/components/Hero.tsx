@@ -8,7 +8,7 @@ export default function Hero() {
         <img
           src="/logo.png"
           alt="Logo Paschoalotto"
-          className="w-[180px] sm:w-[220px] md:w-[300px] h-auto mb-6 md:-ml-4"
+          className="w-[250px] sm:w-[220px] md:w-[300px] h-auto mb-6 md:-ml-4"
         />
 
         <h2 className="font-bold text-[#22244E] mb-2 font-inter"
