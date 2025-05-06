@@ -23,7 +23,7 @@ export default function Hero() {
         <h1
           className="font-bold text-[#0051FA] drop-shadow-lg font-inter"
           style={{
-            fontSize: 'clamp(3.4rem, 7vw, 7.5rem)',
+            fontSize: 'clamp(3.8rem, 7vw, 7.5rem)',
             lineHeight: 'clamp(2.25rem, 6vw, 6.25rem)'
           }}
         >
