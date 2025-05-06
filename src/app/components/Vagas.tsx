@@ -48,8 +48,6 @@ export default function Vagas() {
     },
   ];
 
-  const vagasVisiveis = mostrarMais ? vagas : vagas.slice(0, 2);
-
   return (
     <section id="vagas" className="w-full pt-28 pb-[3.75rem] bg-white">
       <div className="mx-auto px-[13.44%] w-full">
