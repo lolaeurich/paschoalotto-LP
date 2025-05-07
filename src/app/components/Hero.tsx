@@ -14,7 +14,7 @@ export default function Hero() {
         <h2
           className="font-bold text-[#22244E] mb-2 font-inter"
           style={{
-            fontSize: 'clamp(1.5rem, 5vw, 2.75rem)', // mínimo ~24px
+            fontSize: 'clamp(1.5rem, 5vw, 2.75rem)', 
             lineHeight: 'clamp(2rem, 5.5vw, 2.875rem)',
           }}
         >
@@ -24,7 +24,7 @@ export default function Hero() {
         <h1
           className="font-bold text-[#0051FA] drop-shadow-lg font-inter"
           style={{
-            fontSize: 'clamp(3rem, 9vw, 7.5rem)', // mínimo ~48px
+            fontSize: 'clamp(3rem, 9vw, 7.5rem)', 
             lineHeight: 'clamp(3.25rem, 9.5vw, 6.25rem)',
           }}
         >
@@ -34,7 +34,7 @@ export default function Hero() {
         <p
           className="mt-4 font-bold text-[#22244E] font-inter"
           style={{
-            fontSize: 'clamp(1.5rem, 5vw, 2.75rem)', // mínimo ~24px
+            fontSize: 'clamp(1.5rem, 5vw, 2.75rem)',
             lineHeight: 'clamp(2rem, 5.5vw, 2.875rem)',
           }}
         >
