@@ -44,7 +44,7 @@ export default function Depoimentos() {
     <section className="w-full bg-white py-24 md:py-36 px-8 md:px-20 relative">
       <div className="relative max-w-5xl mx-auto">
 
-        <h2 className="mb-24 md:mb-32 relative z-10">
+        <h2 className="mb-24 md:mb-32 relative z-10 pl-0 sm:pl-[5%] md:pl-0">
           <span className="block font-bold text-[#22244E] text-lg md:text-[2.75rem] leading-tight">
             #Paschoalovers
           </span>

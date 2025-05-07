@@ -4,17 +4,18 @@ export default function Hero() {
       className="relative w-full min-h-screen bg-cover bg-[position:left] md:bg-center flex items-center justify-center"
       style={{ backgroundImage: "url('/hero.png')" }}
     >
-      <div className="relative z-10 flex flex-col items-center justify-center md:items-start md:justify-start text-center md:text-left w-full px-6 sm:px-10 md:px-[13.44%] mx-auto">
+      <div className="relative z-10 flex flex-col items-start justify-center text-left w-full px-6 sm:px-10 md:px-[13.44%] mx-auto">
         <img
           src="/logo.png"
           alt="Logo Paschoalotto"
           className="w-[250px] sm:w-[220px] md:w-[300px] h-auto mb-6 md:-ml-4"
         />
 
-        <h2 className="font-bold text-[#22244E] mb-2 font-inter"
+        <h2
+          className="font-bold text-[#22244E] mb-2 font-inter"
           style={{
-            fontSize: 'clamp(2.2rem, 2.5vw, 2.75rem)',
-            lineHeight: 'clamp(2rem, 3vw, 2.875rem)'
+            fontSize: 'clamp(1.5rem, 5vw, 2.75rem)', // mínimo ~24px
+            lineHeight: 'clamp(2rem, 5.5vw, 2.875rem)',
           }}
         >
           Venha trabalhar em uma das
@@ -23,8 +24,8 @@ export default function Hero() {
         <h1
           className="font-bold text-[#0051FA] drop-shadow-lg font-inter"
           style={{
-            fontSize: 'clamp(3.8rem, 7vw, 7.5rem)',
-            lineHeight: 'clamp(2.25rem, 6vw, 6.25rem)'
+            fontSize: 'clamp(3rem, 9vw, 7.5rem)', // mínimo ~48px
+            lineHeight: 'clamp(3.25rem, 9.5vw, 6.25rem)',
           }}
         >
           melhores <br /> empresas
@@ -33,8 +34,8 @@ export default function Hero() {
         <p
           className="mt-4 font-bold text-[#22244E] font-inter"
           style={{
-            fontSize: 'clamp(2.2rem, 2.5vw, 2.75rem)',
-            lineHeight: 'clamp(2rem, 3vw, 2.875rem)'
+            fontSize: 'clamp(1.5rem, 5vw, 2.75rem)', // mínimo ~24px
+            lineHeight: 'clamp(2rem, 5.5vw, 2.875rem)',
           }}
         >
           de atendimento do Brasil!
@@ -51,7 +52,6 @@ export default function Hero() {
             className="ml-2 w-[16px] h-[8px] md:w-[15px] md:h-[10px]"
           />
         </a>
-
       </div>
     </section>
   );
