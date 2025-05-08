@@ -6,7 +6,7 @@ Landing page institucional desenvolvida para o programa de estágios da Paschoal
 
 ## 📸 Preview
 
-![Preview da página](./public/preview.png)
+![Preview da página](https://lp-paschoalotto.vercel.app/)
 
 ---
 
@@ -15,10 +15,7 @@ Landing page institucional desenvolvida para o programa de estágios da Paschoal
 - [Next.js](https://nextjs.org/) — Framework React
 - [TypeScript](https://www.typescriptlang.org/) — Superset tipado para JavaScript
 - [Tailwind CSS](https://tailwindcss.com/) — Framework CSS utilitário
-- [PostCSS](https://postcss.org/) — Utilizado internamente pelo Tailwind
 - [Vercel](https://vercel.com/) — Hospedagem recomendada
 
 ---
-
-## 📁 Estrutura de Pastas
 
