@@ -5,7 +5,7 @@ export default function Hero() {
         <img
           src="/logo.png"
           alt="Logo Paschoalotto"
-          className="w-[180px] sm:w-[200px] md:w-[220px] xl:w-[300px] h-auto mb-4"
+          className="w-[200px] sm:w-[220px] md:w-[240px] xl:w-[320px] h-auto mb-4 -ml-4 sm:-ml-4 md:-ml-3 xl:-ml-4"
         />
 
         <h2
@@ -19,7 +19,7 @@ export default function Hero() {
         </h2>
 
         <h1
-          className="font-bold text-[#0051FA] drop-shadow-lg font-inter"
+          className="font-bold text-[#0051FA] font-inter"
           style={{
             fontSize: 'clamp(2.5rem, 5vw, 6.5rem)',
             lineHeight: '1.1', 
