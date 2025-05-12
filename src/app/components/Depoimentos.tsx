@@ -41,56 +41,54 @@ export default function Depoimentos() {
   const { texto, nome, cargo } = depoimentos[index];
 
   return (
-    <section className="w-full bg-white py-24 md:py-36 px-8 md:px-20 relative">
-      <div className="relative max-w-5xl mx-auto">
+    <section className="w-full bg-white pt-24 md:pt-36 pb-32 px-[13.44%] relative">
+      <h2 className="mb-24 md:mb-32 relative z-10">
+        <span className="block font-bold text-[#22244E] text-[1.75rem] md:text-[2.75rem] leading-tight">
+          #Paschoalovers
+        </span>
+        <span className="block font-bold text-[#0051FA]
+          text-[3rem] sm:text-[3.5rem] md:text-[4.5rem] lg:text-[6rem] xl:text-[7.5rem]
+          leading-[0.8] break-words">
+          depoimentos
+        </span>
+      </h2>
 
-        <h2 className="mb-24 md:mb-32 relative z-10 pl-0 sm:pl-[5%] md:pl-0">
-          <span className="block font-bold text-[#22244E] text-lg md:text-[2.75rem] leading-tight">
-            #Paschoalovers
-          </span>
-          <span className="block font-bold text-[#0051FA]
-            text-[2.5rem] sm:text-[3.5rem] md:text-[4.5rem] lg:text-[6rem] xl:text-[7.5rem]
-            leading-[0.8] break-words">
-            depoimentos
-          </span>
-        </h2>
-
+      <div className="relative mx-auto">
         <img
           src="/aspas-um.png"
           alt="Aspas de abertura"
-          className="absolute top-[52%] left-[10%] w-[120px] h-[100px] md:w-[184px] md:h-[163px] -translate-y-1/2 z-0"
+          className="absolute top-[30%] left-[10%] w-[clamp(60px, 10vw, 100px)] h-[clamp(50px, 8vw, 100px)] -translate-y-[100%] z-0 sm:w-[clamp(80px, 12vw, 120px)] sm:h-[clamp(70px, 10vw, 120px)]"
         />
         <img
           src="/aspas-dois.png"
           alt="Aspas de fechamento"
-          className="absolute bottom-[8%] right-[10%] w-[120px] h-[100px] md:w-[184px] md:h-[163px] z-0"
+          className="absolute bottom-[20%] right-[10%] w-[clamp(60px, 10vw, 100px)] h-[clamp(50px, 8vw, 100px)] z-0 sm:w-[clamp(80px, 12vw, 120px)] sm:h-[clamp(70px, 10vw, 120px)]"
         />
 
         <div className="relative z-10 flex items-center justify-center min-h-[240px] md:min-h-[280px]">
           <button
             onClick={handlePrev}
-            className="absolute -left-6 md:-left-2 top-1/2 -translate-y-[47%] z-20"
+            className="absolute left-0 top-[calc(50%-3rem)] -translate-y-1/2 z-20 sm:left-4 sm:top-[calc(50%-2rem)]"
           >
-          <img
-            src="/depo-left.png"
-            alt="Anterior"
-            className="w-4 h-8 sm:w-[clamp(16px,5vw,38.5px)] sm:h-[clamp(50px,9vw,114.5px)]"
-          />
+            <img
+              src="/depo-left.png"
+              alt="Anterior"
+              className="w-4 h-8 sm:w-[clamp(16px,5vw,38.5px)] sm:h-[clamp(50px,9vw,114.5px)]"
+            />
           </button>
 
-          <div className="flex flex-col items-center text-center max-w-2xl mx-auto px-4 mt-12 md:mt-0">
-            <blockquote className="italic text-[#0039A6] text-base md:text-lg leading-relaxed">
+          <div className="flex flex-col items-center text-center max-w-2xl mx-auto px-4 mt-12 md:mt-0 sm:px-6 sm:mt-6">
+            <blockquote className="italic text-[#0039A6] text-base sm:text-lg lg:text-2xl leading-relaxed">
               {texto}
             </blockquote>
             <div className="h-px w-64 bg-[#D9D9D9] mt-12 mb-4" />
-              <p className="font-bold text-[#0039A6] text-sm md:text-base">{nome}</p>
-              <p className="text-[#0039A6] text-xs md:text-sm">{cargo}</p>
-            </div>
-
+            <p className="font-bold text-[#0039A6] text-sm sm:text-lg lg:text-2xl">{nome}</p>
+            <p className="font-light text-[#0039A6] text-xs sm:text-base lg:text-2xl">{cargo}</p>
+          </div>
 
           <button
             onClick={handleNext}
-            className="absolute -right-6 md:-right-2 top-1/2 -translate-y-[47%] z-20"
+            className="absolute right-0 top-[calc(50%-3rem)] -translate-y-1/2 z-20 sm:right-4 sm:top-[calc(50%-2rem)]"
           >
             <img
               src="/depo-right.png"
@@ -101,6 +99,5 @@ export default function Depoimentos() {
         </div>
       </div>
     </section>
- 
   );
 }

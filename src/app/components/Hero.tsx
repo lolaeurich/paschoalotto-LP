@@ -1,18 +1,18 @@
 export default function Hero() {
   return (
-    <section className="relative w-full min-h-screen flex flex-col md:flex-row items-center justify-center bg-gradient-to-b from-white to-[#d8deed] overflow-hidden pt-0 pb-0">
-      <div className="z-10 flex flex-col items-center px-6 sm:px-8 md:items-start justify-start text-center md:text-left w-full pt-4 md:pt-8 lg:px-[10%] xl:px-[13.44%]">
+    <section className="relative w-full min-h-screen md:min-h-[800px] max-h-[800px] flex flex-col md:flex-row items-center bg-gradient-to-b from-white to-[#d8deed] overflow-hidden pt-0 pb-0">
+      <div className="z-10 flex flex-col items-center md:items-start justify-start text-center md:text-left w-full pt-4 md:pt-8 lg:px-[13%] px-[13.44%] gap-y-[10px] md:gap-y-0">
         <img
           src="/logo.png"
           alt="Logo Paschoalotto"
-          className="w-[200px] sm:w-[220px] md:w-[240px] xl:w-[320px] h-auto mb-4 -ml-4 sm:-ml-4 md:-ml-3 xl:-ml-4"
+          className="w-[200px] sm:w-[220px] md:w-[240px] xl:w-[320px] h-auto sm:mb-2 md:mb-4 -ml-4 sm:-ml-4 md:-ml-3 xl:-ml-4"
         />
 
         <h2
           className="font-bold text-[#22244E] mb-2 font-inter"
           style={{
-            fontSize: 'clamp(1.25rem, 2.5vw, 2.5rem)',
-            lineHeight: '1.2', 
+            fontSize: 'clamp(1.5rem, 2.5vw, 2.5rem)',
+            lineHeight: '1.2',
           }}
         >
           Venha trabalhar em uma das
@@ -21,8 +21,8 @@ export default function Hero() {
         <h1
           className="font-bold text-[#0051FA] font-inter"
           style={{
-            fontSize: 'clamp(2.5rem, 5vw, 6.5rem)',
-            lineHeight: '1.1', 
+            fontSize: 'clamp(3rem, 8vw, 7.5rem)',
+            lineHeight: '0.8',
           }}
         >
           melhores <br /> empresas
@@ -31,8 +31,8 @@ export default function Hero() {
         <p
           className="mt-4 font-bold text-[#22244E] font-inter"
           style={{
-            fontSize: 'clamp(1.25rem, 2.5vw, 2.5rem)',
-            lineHeight: '1.2', 
+            fontSize: 'clamp(1.5rem, 2.5vw, 2.5rem)', 
+            lineHeight: '1.2',
           }}
         >
           de atendimento do Brasil!
@@ -46,7 +46,7 @@ export default function Hero() {
           <img
             src="/botao.png"
             alt="Seta"
-            className="ml-2 w-[14px] h-[8px] md:w-[15px] md:h-[10px]"
+            className="ml-2 mt-1 w-[14px] h-[8px] md:w-[15px] md:h-[10px]"
           />
         </a>
       </div>

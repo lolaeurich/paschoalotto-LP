@@ -63,15 +63,15 @@ export default function Vagas() {
       className="w-full pt-28 pb-[3.75rem] bg-white"
     >
       <div className="mx-auto px-[13.44%] w-full">
-        <h2 className="text-left mb-12 font-inter">
-          <span className="block font-bold text-[#22244E] text-[1.375rem] leading-[1.1rem] md:text-[2.75rem] md:leading-[1.5rem]">
-            Nossas
-          </span>
+       <h2 className="text-left mb-12 font-inter">
+        <span className="block font-bold text-[#22244E] text-[1.75rem] leading-[2rem] md:text-[3.5rem] md:leading-[3rem]">
+          Nossas
+        </span>
 
-          <span className="block font-bold font-inter text-[#0051FA] text-[3.75rem] leading-[3.5rem] md:text-[7.5rem] md:leading-[5rem]">
-            vagas
-          </span>
-        </h2>
+        <span className="block font-bold font-inter text-[#0051FA] text-[4rem] leading-[3.5rem] md:text-[7.5rem] md:leading-[5rem]">
+          vagas
+        </span>
+      </h2>
 
         <div className="flex flex-wrap justify-start xl:justify-between gap-y-14 gap-x-8">
           {vagas.map((vaga, index) => {

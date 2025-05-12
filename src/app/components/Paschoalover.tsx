@@ -13,11 +13,11 @@ export default function PaschoaloverSection() {
   }
 
   return (
-    <section className="w-full bg-[#F9F9F9] px-[13.44%] pt-14 pb-10">
+    <section className="w-full bg-[#F9F9F9] px-[13.44%] pt-20 md:pt-40 pb-10">
       <div className="max-w-6xl mx-auto">
         
         <div className="mb-10 md:mb-16">
-          <p className="font-inter font-bold text-[#22244E] text-[clamp(1.5rem,2.2vw,2.75rem)] leading-tight">
+          <p className="font-inter font-bold text-[#22244E] text-[clamp(1.75rem,2.2vw,2.75rem)] leading-tight">
             Orgulho de ser
           </p>
           <h2 className="font-inter font-bold text-[#0051FA] text-[clamp(2.8rem,9vw,7.5rem)] leading-[0.9]">
@@ -48,7 +48,7 @@ export default function PaschoaloverSection() {
         </div>
 
         <div id='form' className="text-center mb-24 md:mb-32">
-        <p className="font-inter font-bold text-[#22244E] text-[clamp(1.5rem,4vw,2.75rem)] leading-tight">
+        <p className="font-inter font-bold text-[#22244E] text-[clamp(1.75rem,4vw,2.75rem)] leading-tight">
           Vem fazer parte da
         </p>
         <h3 className="font-inter font-bold text-[#0051FA] text-[clamp(3rem,10vw,7.5rem)] leading-[0.9] mb-10">
@@ -60,23 +60,23 @@ export default function PaschoaloverSection() {
               <input
                 type="text"
                 placeholder="Nome"
-                className="w-full md:col-span-2 px-4 py-3 rounded-2xl bg-[#E5E5E5] text-[#4C4C4C] placeholder:text-[#4C4C4C] font-inter italic font-medium text-base tracking-[0.02em] outline-none"
+                className="w-full md:col-span-2 px-4 py-3 rounded-2xl bg-[#E5E5E5] text-[#4C4C4C] placeholder:text-[#4C4C4C] font-inter italic font-medium text-base tracking-[0.02em] outline-none placeholder:pl-1"
               />
               <input
                 type="text"
                 placeholder="Telefone"
-                className="w-full px-4 py-3 rounded-2xl bg-[#E5E5E5] text-[#4C4C4C] placeholder:text-[#4C4C4C] font-inter italic font-medium text-base tracking-[0.02em] outline-none"
+                className="w-full px-4 py-3 rounded-2xl bg-[#E5E5E5] text-[#4C4C4C] placeholder:text-[#4C4C4C] font-inter italic font-medium text-base tracking-[0.02em] outline-none placeholder:pl-1"
               />
               <input
                 type="email"
                 placeholder="E-mail"
-                className="w-full px-4 py-3 rounded-2xl bg-[#E5E5E5] text-[#4C4C4C] placeholder:text-[#4C4C4C] font-inter italic font-medium text-base tracking-[0.02em] outline-none"
+                className="w-full px-4 py-3 rounded-2xl bg-[#E5E5E5] text-[#4C4C4C] placeholder:text-[#4C4C4C] font-inter italic font-medium text-base tracking-[0.02em] outline-none placeholder:pl-1"
               />
             </div>
 
             <textarea
               placeholder="Mensagem"
-              className="w-full h-40 px-4 py-3 rounded-2xl bg-[#E5E5E5] text-[#4C4C4C] placeholder:text-[#4C4C4C] font-inter italic font-medium text-base tracking-[0.02em] outline-none resize-none"
+              className="w-full h-40 px-4 py-3 rounded-2xl bg-[#E5E5E5] text-[#4C4C4C] placeholder:text-[#4C4C4C] font-inter italic font-medium text-base tracking-[0.02em] outline-none resize-none placeholder:pl-1"
             />
 
             <div className="flex flex-col items-center text-center">
@@ -107,11 +107,16 @@ export default function PaschoaloverSection() {
               )}
             </div>
 
-            <button
+           <button
               type="submit"
-              className="bg-[#0051FA] hover:bg-[#003ec7] text-white font-semibold w-full sm:w-[185px] h-[42px] rounded-full transition-colors"
+              className="bg-[#0051FA] hover:bg-[#003ec7] text-white font-semibold w-[140px] sm:w-[185px] h-[42px] rounded-full transition-colors mx-auto flex justify-center items-center gap-2"
             >
-              Enviar &gt;
+              Enviar
+              <img
+                src="/botao-form.svg"
+                alt="Flecha"
+                className=""
+              />
             </button>
 
           </form>
