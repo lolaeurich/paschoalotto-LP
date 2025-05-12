@@ -47,7 +47,7 @@ export default function PaschoaloverSection() {
           </div>
         </div>
 
-        <div className="text-center mb-24 md:mb-32">
+        <div id='form' className="text-center mb-24 md:mb-32">
         <p className="font-inter font-bold text-[#22244E] text-[clamp(1.5rem,4vw,2.75rem)] leading-tight">
           Vem fazer parte da
         </p>

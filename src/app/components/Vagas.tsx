@@ -116,8 +116,7 @@ export default function Vagas() {
                 </p>
 
                 <a
-                  href="https://paschoalotto.gupy.io/"
-                  target="_blank"
+                  href="#form"
                   rel="noopener noreferrer"
                   className="absolute font-inter bottom-[-20px] left-1/2 transform -translate-x-1/2 inline-block bg-[#0051FA] text-white font-semibold text-sm md:text-base w-[200px] md:w-[260px] text-center py-2 rounded-full shadow-md hover:bg-blue-700 transition"
                 >
