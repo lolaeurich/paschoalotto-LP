@@ -4,12 +4,6 @@ Landing page institucional desenvolvida para o programa de estágios da Paschoal
 
 ---
 
-## 📸 Preview
-
-![Preview da página](https://lp-paschoalotto.vercel.app/)
-
----
-
 ## 🧰 Tecnologias Utilizadas
 
 - [Next.js](https://nextjs.org/) — Framework React
