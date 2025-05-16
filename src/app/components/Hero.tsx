@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className="relative w-full min-h-screen md:min-h-[800px] max-h-[800px] flex flex-col md:flex-row items-center bg-gradient-to-b from-white to-[#d8deed] overflow-hidden pt-0 pb-0">
+    <section className="relative w-full min-h-screen md:min-h-[800px] max-h-[800px] flex flex-col md:flex-row items-center bg-gradient-to-b from-white to-hero-gradiente overflow-hidden pt-0 pb-0">
       <div className="z-10 flex flex-col items-center md:items-start justify-start text-center md:text-left w-full pt-4 md:pt-8 lg:px-[13%] px-[13.44%] gap-y-[10px] md:gap-y-0">
         <img
           src="/logo.png"
@@ -9,7 +9,7 @@ export default function Hero() {
         />
 
         <h2
-          className="font-bold text-[#22244E] mb-2 font-inter"
+          className="font-bold text-azul-escuro mb-2 font-inter"
           style={{
             fontSize: 'clamp(1.5rem, 2.5vw, 2.5rem)',
             lineHeight: '1.2',
@@ -19,7 +19,7 @@ export default function Hero() {
         </h2>
 
         <h1
-          className="font-bold text-[#0051FA] font-inter"
+          className="font-bold text-azul-principal font-inter"
           style={{
             fontSize: 'clamp(3rem, 8vw, 7.5rem)',
             lineHeight: '0.8',
@@ -29,7 +29,7 @@ export default function Hero() {
         </h1>
 
         <p
-          className="mt-4 font-bold text-[#22244E] font-inter"
+          className="mt-4 font-bold text-azul-escuro font-inter"
           style={{
             fontSize: 'clamp(1.5rem, 2.5vw, 2.5rem)', 
             lineHeight: '1.2',
@@ -40,7 +40,7 @@ export default function Hero() {
 
         <a
           href="#vagas"
-          className="mt-6 inline-flex items-center justify-center bg-[#0051FA] text-white font-inter font-bold text-sm sm:text-base md:text-lg px-4 sm:px-6 md:px-8 py-2 sm:py-2.5 md:py-3 rounded-full hover:bg-blue-600 transition tracking-[0.05em]"
+          className="mt-6 inline-flex items-center justify-center bg-azul-principal text-white font-inter font-bold text-sm sm:text-base md:text-lg px-4 sm:px-6 md:px-8 py-2 sm:py-2.5 md:py-3 rounded-full hover:bg-blue-600 transition tracking-[0.05em]"
         >
           Ver vagas
           <img

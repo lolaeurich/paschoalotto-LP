@@ -43,10 +43,10 @@ export default function Depoimentos() {
   return (
     <section className="w-full bg-white pt-24 md:pt-36 pb-32 px-[13.44%] relative">
       <h2 className="mb-24 md:mb-32 relative z-10">
-        <span className="block font-bold text-[#22244E] text-[1.75rem] md:text-[2.75rem] leading-tight">
+        <span className="block font-bold text-azul-escuro text-[1.75rem] md:text-[2.75rem] leading-tight">
           #Paschoalovers
         </span>
-        <span className="block font-bold text-[#0051FA]
+        <span className="block font-bold text-azul-principal
           text-[3rem] sm:text-[3.5rem] md:text-[4.5rem] lg:text-[6rem] xl:text-[7.5rem]
           leading-[0.8] break-words">
           depoimentos
@@ -78,12 +78,12 @@ export default function Depoimentos() {
           </button>
 
           <div className="flex flex-col items-center text-center max-w-2xl mx-auto px-4 mt-12 md:mt-0 sm:px-6 sm:mt-6">
-            <blockquote className="italic text-[#0039A6] text-base sm:text-lg lg:text-2xl leading-relaxed">
+            <blockquote className="italic text-azul-depoimentos text-base sm:text-lg lg:text-2xl leading-relaxed">
               {texto}
             </blockquote>
-            <div className="h-px w-64 bg-[#D9D9D9] mt-12 mb-4" />
-            <p className="font-bold text-[#0039A6] text-sm sm:text-lg lg:text-2xl">{nome}</p>
-            <p className="font-light text-[#0039A6] text-xs sm:text-base lg:text-2xl">{cargo}</p>
+            <div className="h-px w-64 bg-cinza-principal mt-12 mb-4" />
+            <p className="font-bold text-azul-depoimentos text-sm sm:text-lg lg:text-2xl">{nome}</p>
+            <p className="font-light text-azul-depoimentos text-xs sm:text-base lg:text-2xl">{cargo}</p>
           </div>
 
           <button

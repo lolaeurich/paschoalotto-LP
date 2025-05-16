@@ -64,11 +64,11 @@ export default function Vagas() {
     >
       <div className="mx-auto px-[13.44%] w-full">
        <h2 className="text-left mb-12 font-inter">
-        <span className="block font-bold text-[#22244E] text-[1.75rem] leading-[2rem] md:text-[3.5rem] md:leading-[3rem]">
+        <span className="block font-bold text-azul-escuro text-[1.75rem] leading-[2rem] md:text-[3.5rem] md:leading-[3rem]">
           Nossas
         </span>
 
-        <span className="block font-bold font-inter text-[#0051FA] text-[4rem] leading-[3.5rem] md:text-[7.5rem] md:leading-[5rem]">
+        <span className="block font-bold font-inter text-azul-principal text-[4rem] leading-[3.5rem] md:text-[7.5rem] md:leading-[5rem]">
           vagas
         </span>
       </h2>
@@ -79,7 +79,7 @@ export default function Vagas() {
             return (
               <div
                 key={index}
-                className={`relative bg-[#F4F4F4] rounded-[25px] p-6 pt-8 pb-14 shadow-md text-left w-full max-w-full ${
+                className={`relative bg-branco-card rounded-[25px] p-6 pt-8 pb-14 shadow-md text-left w-full max-w-full ${
                   index === 4
                     ? "xl:basis-[48%] xl:mx-auto"
                     : "xl:basis-[48%]"
@@ -91,26 +91,26 @@ export default function Vagas() {
                     alt="Ícone de mala"
                     className="w-[32px] h-[30px] md:w-[54px] md:h-[50px] object-contain"
                   />
-                  <h3 className="text-[#0051FA] font-inter text-[1.75rem] md:text-[2.375rem] leading-[2.25rem] font-bold font-inter">
+                  <h3 className="text-azul-principal font-inter text-[1.75rem] md:text-[2.375rem] leading-[2.25rem] font-bold font-inter">
                     {vaga.cidade}
                   </h3>
                 </div>
 
-                <p className="text-[#002C8B] font-inter text-sm md:text-[1.125rem] leading-[1.375rem] tracking-[0.05em] font-bold">
+                <p className="text-azul-card font-inter text-sm md:text-[1.125rem] leading-[1.375rem] tracking-[0.05em] font-bold">
                   <strong>Expediente:</strong>{" "}
                   <span className="font-normal">{vaga.expediente}</span>
                 </p>
 
-                <hr className="border-t border-[#D9D9D9] my-2" />
+                <hr className="border-t border-cinza-principal my-2" />
 
                 <p className="text-[#002C8B] font-inter text-sm md:text-[1.125rem] leading-[1.375rem] tracking-[0.05em] font-bold">
                   <strong>Bolsa:</strong>{" "}
                   <span className="font-normal">{vaga.bolsa}</span>
                 </p>
 
-                <hr className="border-t border-[#D9D9D9] my-2" />
+                <hr className="border-t border-cinza-principal my-2" />
 
-                <p className="text-[#002C8B] font-inter text-sm md:text-[1.125rem] leading-[1.375rem] tracking-[0.05em] font-bold">
+                <p className="text-azul-card font-inter text-sm md:text-[1.125rem] leading-[1.375rem] tracking-[0.05em] font-bold">
                   <strong>Funções:</strong>{" "}
                   <span className="font-normal">{vaga.funcoes}</span>
                 </p>
@@ -118,7 +118,7 @@ export default function Vagas() {
                 <a
                   href="#form"
                   rel="noopener noreferrer"
-                  className="absolute font-inter bottom-[-20px] left-1/2 transform -translate-x-1/2 inline-block bg-[#0051FA] text-white font-semibold text-sm md:text-base w-[200px] md:w-[260px] text-center py-2 rounded-full shadow-md hover:bg-blue-700 transition"
+                  className="absolute font-inter bottom-[-20px] left-1/2 transform -translate-x-1/2 inline-block bg-azul-principal text-white font-semibold text-sm md:text-base w-[200px] md:w-[260px] text-center py-2 rounded-full shadow-md hover:bg-blue-700 transition"
                 >
                   Quero me candidatar
                 </a>
@@ -130,7 +130,7 @@ export default function Vagas() {
         <div className="mt-10 flex justify-center xl:hidden">
           <button
             onClick={handleToggle}
-            className="flex font-inter items-center gap-2 bg-[#EAF1FF] text-[#0051FA] font-semibold px-5 py-2 rounded-full transition hover:bg-[#d5e6ff]"
+            className="flex font-inter items-center gap-2 bg-branco-colapsar text-azul-principal font-semibold px-5 py-2 rounded-full transition hover:bg-branco-colapsar-secundario"
           >
             {mostrarMais ? "Ver menos" : "Ver mais"}
             <span
