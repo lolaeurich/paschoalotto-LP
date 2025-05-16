@@ -1,42 +1,27 @@
+import Subtitulo from "./Subtitulos";
+import Titulo from "./Titulos";
+
 export default function Hero() {
   return (
     <section className="relative w-full min-h-screen md:min-h-[800px] max-h-[800px] flex flex-col md:flex-row items-center bg-gradient-to-b from-white to-hero-gradiente overflow-hidden pt-0 pb-0">
-      <div className="z-10 flex flex-col items-center md:items-start justify-start text-center md:text-left w-full pt-4 md:pt-8 lg:px-[13%] px-[13.44%] gap-y-[10px] md:gap-y-0">
-        <img
-          src="/logo.png"
-          alt="Logo Paschoalotto"
-          className="w-[200px] sm:w-[220px] md:w-[240px] xl:w-[320px] h-auto sm:mb-2 md:mb-4 -ml-4 sm:-ml-4 md:-ml-3 xl:-ml-4"
-        />
+      <div className="z-10 flex flex-col items-center md:items-start justify-start w-full pt-4 md:pt-8 lg:px-[13%] px-[13.44%] gap-y-[10px] md:gap-y-0">
+  <img
+    src="/logo.png"
+    alt="Logo Paschoalotto"
+    className="w-[200px] sm:w-[220px] md:w-[240px] xl:w-[320px] h-auto sm:mb-2 md:mb-4 -ml-4 sm:-ml-4 md:-ml-3 xl:-ml-4"
+  />
 
-        <h2
-          className="font-bold text-azul-escuro mb-2 font-inter"
-          style={{
-            fontSize: 'clamp(1.5rem, 2.5vw, 2.5rem)',
-            lineHeight: '1.2',
-          }}
-        >
-          Venha trabalhar em uma das
-        </h2>
+  <Subtitulo>
+    Venha trabalhar em uma das
+  </Subtitulo>
 
-        <h1
-          className="font-bold text-azul-principal font-inter"
-          style={{
-            fontSize: 'clamp(3rem, 8vw, 7.5rem)',
-            lineHeight: '0.8',
-          }}
-        >
-          melhores <br /> empresas
-        </h1>
+  <Titulo>
+    melhores <br /> empresas
+  </Titulo>
 
-        <p
-          className="mt-4 font-bold text-azul-escuro font-inter"
-          style={{
-            fontSize: 'clamp(1.5rem, 2.5vw, 2.5rem)', 
-            lineHeight: '1.2',
-          }}
-        >
-          de atendimento do Brasil!
-        </p>
+  <Subtitulo className="mt-4">
+    de atendimento do Brasil!
+  </Subtitulo>
 
         <a
           href="#vagas"

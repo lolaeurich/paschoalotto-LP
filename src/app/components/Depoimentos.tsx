@@ -1,6 +1,8 @@
 'use client'
 
 import { useEffect, useState } from 'react';
+import Subtitulo from './Subtitulos';
+import Titulo from './Titulos';
 
 const depoimentos = [
   {
@@ -42,15 +44,14 @@ export default function Depoimentos() {
 
   return (
     <section className="w-full bg-white pt-24 md:pt-36 pb-32 px-[13.44%] relative">
-      <h2 className="mb-24 md:mb-32 relative z-10">
-        <span className="block font-bold text-azul-escuro text-[1.75rem] md:text-[2.75rem] leading-tight">
+     <h2 className="mb-24 md:mb-32 relative z-10">
+        <Subtitulo align="left">
           #Paschoalovers
-        </span>
-        <span className="block font-bold text-azul-principal
-          text-[3rem] sm:text-[3.5rem] md:text-[4.5rem] lg:text-[6rem] xl:text-[7.5rem]
-          leading-[0.8] break-words">
+        </Subtitulo>  
+
+        <Titulo>
           depoimentos
-        </span>
+        </Titulo>
       </h2>
 
       <div className="relative mx-auto">

@@ -2,6 +2,8 @@
 
 import { useState } from 'react'
 import { FormInput, FormTextarea, FormCheckbox } from './FormComponents'
+import Subtitulo from './Subtitulos'
+import Titulo from './Titulos'
 
 export default function PaschoaloverSection() {
   const [accepted, setAccepted] = useState(false)
@@ -16,13 +18,13 @@ export default function PaschoaloverSection() {
   return (
     <section className="w-full bg-cinza-paschoalover px-[13.44%] pt-20 md:pt-40 pb-10">
       <div className="max-w-6xl mx-auto">
-        <div className="mb-10 md:mb-16">
-          <p className="font-inter font-bold text-azul-escuro text-[clamp(1.75rem,2.2vw,2.75rem)] leading-tight">
+       <div className="mb-10 md:mb-16">
+          <Subtitulo align='left'>
             Orgulho de ser
-          </p>
-          <h2 className="font-inter font-bold text-azul-principal text-[clamp(2.8rem,9vw,7.5rem)] leading-[0.9]">
+          </Subtitulo>
+          <Titulo>
             #paschoalover
-          </h2>
+          </Titulo>
         </div>
 
         <div className="mb-20 md:mb-32 grid grid-cols-1 md:grid-cols-3 gap-4">
@@ -48,14 +50,15 @@ export default function PaschoaloverSection() {
         </div>
 
         <div id="form" className="text-center mb-24 md:mb-32">
-          <p className="font-inter font-bold text-azul-escuro text-[clamp(1.75rem,4vw,2.75rem)] leading-tight">
+          <Subtitulo align='center'>
             Vem fazer parte da
-          </p>
-          <h3 className="font-inter font-bold text-azul-principal text-[clamp(3rem,10vw,7.5rem)] leading-[0.9] mb-10">
-            nossa equipe
-          </h3>
+          </Subtitulo>
 
-          <form onSubmit={handleSubmit} className="max-w-4xl mx-auto space-y-4">
+          <Titulo align='center'>
+            nossa equipe
+          </Titulo>
+
+          <form onSubmit={handleSubmit} className="max-w-4xl mx-auto space-y-4 mt-8 md:mt-10">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <FormInput
                 type="text"
