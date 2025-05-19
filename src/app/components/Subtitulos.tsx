@@ -10,7 +10,7 @@ export default function Subtitulo({ children, align = "center", className = "" }
   return (
     <h2
       className={`
-        font-bold text-azul-escuro font-inter
+        font-bold text-azul-escuro
         ${align === "center" ? "text-center" : "text-left"}
         ${className}
       `}

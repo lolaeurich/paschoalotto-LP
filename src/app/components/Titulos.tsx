@@ -10,7 +10,7 @@ export default function Titulo({ children, align = "left", className = "" }: Tit
   return (
     <h2
       className={`
-        font-bold text-azul-principal font-inter
+        font-bold text-azul-principal
         ${align === "center" ? "text-center" : "text-left"}
         ${className}
       `}

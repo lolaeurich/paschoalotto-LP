@@ -44,15 +44,10 @@ export default function Depoimentos() {
 
   return (
     <section className="w-full bg-white pt-24 md:pt-36 pb-32 px-[13.44%] relative">
-     <h2 className="mb-24 md:mb-32 relative z-10">
-        <Subtitulo align="left">
-          #Paschoalovers
-        </Subtitulo>  
-
-        <Titulo>
-          depoimentos
-        </Titulo>
-      </h2>
+      <div className="mb-24 md:mb-32 relative z-10">
+        <Subtitulo align="left">#Paschoalovers</Subtitulo>
+        <Titulo>depoimentos</Titulo>
+      </div>
 
       <div className="relative mx-auto">
         <img
@@ -66,7 +61,7 @@ export default function Depoimentos() {
           className="absolute bottom-[20%] right-[10%] w-[clamp(60px, 10vw, 100px)] h-[clamp(50px, 8vw, 100px)] z-0 sm:w-[clamp(80px, 12vw, 120px)] sm:h-[clamp(70px, 10vw, 120px)]"
         />
 
-        <div className="relative z-10 flex items-center justify-center min-h-[240px] md:min-h-[280px]">
+        <div className="relative z-10 flex items-center justify-center h-[300px] sm:h-[320px] md:min-h-[280px]">
           <button
             onClick={handlePrev}
             className="absolute left-0 top-[calc(50%-3rem)] -translate-y-1/2 z-20 sm:left-4 sm:top-[calc(50%-2rem)]"

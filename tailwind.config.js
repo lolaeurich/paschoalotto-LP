@@ -8,13 +8,12 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        inter: ["Inter", "sans-serif"],
+        inter: ['var(--font-inter)'],
       },
       colors: {
-        teste : '#D9D9D9',
+        teste: '#D9D9D9',
       },
     },
   },
   plugins: [],
 };
-

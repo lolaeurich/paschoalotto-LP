@@ -8,7 +8,7 @@ export function FormInput({ className = "", ...props }: InputProps) {
   return (
     <input
       {...props}
-      className={`w-full px-4 py-3 rounded-2xl bg-cinza-form text-cinza-text placeholder:text-cinza-text font-inter italic font-medium text-base tracking-[0.02em] outline-none placeholder:pl-1 ${className}`}
+      className={`w-full px-4 py-3 rounded-2xl bg-cinza-form text-cinza-text placeholder:text-cinza-text italic font-medium text-base tracking-[0.02em] outline-none placeholder:pl-1 focus:bg-[#e4e4e4] focus:border focus:border-[#aac0f0] ${className}`}
     />
   );
 }
@@ -21,7 +21,7 @@ export function FormTextarea({ className = "", ...props }: TextareaProps) {
   return (
     <textarea
       {...props}
-      className={`w-full h-40 px-4 py-3 rounded-2xl bg-cinza-form text-cinza-text placeholder:text-cinza-text font-inter italic font-medium text-base tracking-[0.02em] outline-none resize-none placeholder:pl-1 ${className}`}
+      className={`w-full h-40 px-4 py-3 rounded-2xl bg-cinza-form text-cinza-text placeholder:text-cinza-text italic font-medium text-base tracking-[0.02em] outline-none resize-none placeholder:pl-1 focus:bg-[#e4e4e4] focus:border focus:border-[#aac0f0] ${className}`}
     />
   );
 }
@@ -44,15 +44,15 @@ export function FormCheckbox({
   return (
     <div className="flex flex-col items-center text-center">
       <label
-        className={`flex items-center justify-center gap-2 font-inter italic font-medium text-base tracking-[0.02em] ${
+        className={`flex items-center justify-center gap-2 italic font-medium text-base tracking-[0.02em] ${
           error ? "text-red-600" : "text-cinza-text"
         }`}
       >
         <input
           type="checkbox"
-          className={`w-5 h-5 rounded-sm accent-green-600 bg-cinza-form ${
-            error ? "border-2 border-red-600" : ""
-          } ${className}`}
+          className={`w-5 h-5 rounded-sm accent-green-600 bg-cinza-form transition-colors ${
+            error ? "border-2 border-red-600" : "border border-gray-300"
+          } focus:ring-2 focus:ring-[#aac0f0] ${className}`}
           {...props}
         />
         {children}
