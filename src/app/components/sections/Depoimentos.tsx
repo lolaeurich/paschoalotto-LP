@@ -1,8 +1,8 @@
 'use client'
 
 import { useEffect, useState } from 'react';
-import Subtitulo from './Subtitulos';
-import Titulo from './Titulos';
+import Subtitulo from '../ui/Subtitulos';
+import Titulo from '../ui/Titulos';
 
 const depoimentos = [
   {

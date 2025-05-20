@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useRef } from "react";
-import Subtitulo from "./Subtitulos";
+import Subtitulo from "../ui/Subtitulos";
 
 export default function Vagas() {
   const [mostrarMais, setMostrarMais] = useState(false);

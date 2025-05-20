@@ -1,5 +1,5 @@
-import Subtitulo from "./Subtitulos";
-import Titulo from "./Titulos";
+import Subtitulo from "../ui/Subtitulos";
+import Titulo from "../ui/Titulos";
 
 export default function Hero() {
   return (

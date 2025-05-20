@@ -1,8 +1,8 @@
-import Depoimentos from "./components/Depoimentos";
-import Footer from "./components/Footer";
-import Hero from "./components/Hero";
-import Paschoalover from "./components/Paschoalover";
-import Vagas from "./components/Vagas";
+import Depoimentos from "./components/sections/Depoimentos";
+import Footer from "./components/sections/Footer";
+import Hero from "./components/sections/Hero";
+import Paschoalover from "./components/sections/Paschoalover";
+import Vagas from "./components/sections/Vagas";
 
 export default function Home() {
   return (

@@ -1,9 +1,9 @@
 'use client'
 
 import { useState } from 'react'
-import { FormInput, FormTextarea, FormCheckbox } from './FormComponents'
-import Subtitulo from './Subtitulos'
-import Titulo from './Titulos'
+import { FormInput, FormTextarea, FormCheckbox } from '../ui/FormComponents'
+import Subtitulo from '../ui/Subtitulos'
+import Titulo from '../ui/Titulos'
 
 export default function PaschoaloverSection() {
   const [accepted, setAccepted] = useState(false)
